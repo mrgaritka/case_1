@@ -1,0 +1,1 @@
+from left_side import turtule_part
