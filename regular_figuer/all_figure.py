@@ -1,6 +1,7 @@
 import turtle
 
-def square(x, y, a, fill_color):
+def square(x, y, fill_color, scale = 1):
+    a = 100 * scale
     turtle.up()  # Поднять перо (не оставлять след при перемещении)
     turtle.setposition(x, y)  # Установка позиции
     turtle.down()  # Опустить перо (оставлять след при перемещении)
