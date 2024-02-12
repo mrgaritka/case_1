@@ -1,0 +1,1 @@
+from regular_figuer import all_figure

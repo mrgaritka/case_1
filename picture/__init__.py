@@ -1,0 +1,1 @@
+from picture import all_picture
