@@ -40,3 +40,12 @@ def rocket(x,y):
     parallelogram(70, -80, "green", 270, scale=0.8)
     square(0, 10, "orange", 45, 0.5)
     triangle(-35, -25, "purple", 45, 0.5)
+
+def ship(x,y):
+    triangle(0, 200, "purple", 180, 0.5)
+    triangle(-50, 195, "red", 45, 1)
+    triangle(-53, 170, "yellow", 90, 1)
+    triangle(-45, 52, "pink", -45, 0.5)
+    square(25, 122, 'orange', 43, scale=0.45)
+    triangle(30, 45, "light blue", 135, 0.7)
+    parallelogram(-80, 45, "green", 45, scale=0.65)
