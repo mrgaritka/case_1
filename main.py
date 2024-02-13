@@ -4,9 +4,9 @@ import turtle
 
 
 def main():
-    turtle.speed(2)  # Установка максимальной скорости рисования
+    turtle.speed(12)  # Установка максимальной скорости рисования
     fish(0, 0) # Передаем координаты нашей рыбе
-    # helicopter(0,0)
+    helicopter(0,0)
     turtle.done() # Завершаем рисовать
 
 
