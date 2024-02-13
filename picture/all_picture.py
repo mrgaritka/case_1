@@ -48,11 +48,27 @@ def left_person(x,y):
     triangle(-117, 15, "pink", -90, 0.5)
     triangle(23, 80, "light blue", 45, scale=0.8)
     triangle(20, -60, "purple", -135, 0.5)
+
+def ship(x,y):
+    triangle(0, 200, "purple", 180, 0.5)
+    triangle(-50, 195, "red", 45, 1)
+    triangle(-53, 170, "yellow", 90, 1)
+    triangle(-45, 52, "pink", -45, 0.5)
+    square(0, 100, 'orange', 45, scale=0.5)
 def rooster(x,y):
     square(0, 300, "orange", 0, scale=0.5)
     triangle(0, 300, "pink", 315, 0.7)
     triangle(-50, 150, "yellow", 270, 1)
     triangle(20, 150, "purple", 225, 0.5)
     triangle(-150, 300, "red", 0, 1)
-    triangle(-150, 300, "blue", 315, 0.7)
+    triangle(-150, 300, "light blue", 315, 0.7)
     parallelogram(-170, 234, "green", 285, scale=0.7)
+
+def ship(x,y):
+    triangle(0, 200, "purple", 180, 0.5)
+    triangle(-50, 195, "red", 45, 1)
+    triangle(-53, 170, "yellow", 90, 1)
+    triangle(-45, 52, "pink", -45, 0.5)
+    square(25, 122, 'orange', 43, scale=0.45)
+    triangle(30, 45, "light blue", 135, 0.7)
+    parallelogram(-80, 45, "green", 45, scale=0.65)
