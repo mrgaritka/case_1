@@ -31,3 +31,11 @@ def rabbit(x, y):
     triangle(-25, 50, "blue", 90, 0.75)
     triangle(28, -25, "purple", 180, 0.5)
     triangle(0, 100, "pink", 45, 0.5)
+def humen(x, y):
+    square(300, 300, "orange", 45, scale=0.7)
+    triangle(300, 100, "blue", 270, 1)
+    triangle(200, 200, "blue", 0, 1)
+    triangle(400, 0, "purple", 180, 1)
+    parallelogram(170, -10, "purple", 330, scale=1.5)
+    triangle(380, 0, "red", 0, 0.5)
+    triangle(180, -80, "red", 90, 0.5)
