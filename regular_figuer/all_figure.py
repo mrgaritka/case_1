@@ -17,7 +17,7 @@ def square(x, y, fill_color, rotation=0, scale = 1):
     turtle.right(90)  # Повернуть направо на 90 градусов
     turtle.forward(a)  # Переместиться вперед на длину стороны
 
-    turtle.right(180)
+    turtle.right(180-rotation)
 
     turtle.end_fill()  # Завершить заливку фигуры
 
@@ -37,7 +37,7 @@ def triangle(x, y, fill_color, rotation=0, scale=1):
     turtle.right(90)  # Повернуть направо на 90 градусов
     turtle.forward(a)# Переместиться вперед на длину стороны
 
-    turtle.right(270)
+    turtle.right(270 - rotation)
     turtle.end_fill()  # Завершить заливку фигуры
 
 def parallelogram(x, y, fill_color, rotation=0, scale = 1):
@@ -61,6 +61,6 @@ def parallelogram(x, y, fill_color, rotation=0, scale = 1):
     turtle.right(120)  # Повернуть направо на 90 градусов
     turtle.forward(b)
 
-    turtle.right(60)
+    turtle.right(60 - rotation)
     turtle.end_fill()  # Завершить заливку фигуры
 
