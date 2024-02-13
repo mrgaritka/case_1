@@ -1,4 +1,4 @@
-from picture.all_picture import fish, helicopter, rabbit, rocket, ship, left_person
+from picture.all_picture import fish, helicopter, rabbit, rocket, ship, left_person, humen, rooster
 import turtle
 
 
@@ -10,6 +10,8 @@ def main():
     rabbit(0,0)
     left_person(0,0)
     rocket(0,0)
+    humen(0,0)
+    rooster(0,0)
     ship(0,0)
     turtle.done() # Завершаем рисовать
 
