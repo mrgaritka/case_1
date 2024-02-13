@@ -1,4 +1,4 @@
-from picture.all_picture import fish, helicopter, rabbit, rocket, ship, left_person, human, rooster, big_sqare, human
+from picture.all_picture import fish, helicopter, rabbit, rocket, ship, left_person, human, rooster, big_square, human
 import turtle
 
 
@@ -14,7 +14,7 @@ def main():
     human(200,-100)  # Передаем координаты правому человечку
     rooster(560,30)  # Передаем координаты нашему петуху
     ship(-500,-400)  # Передаем координаты нашему кораблю
-    big_sqare(0,0)  # Передаем координаты центральному квадрату
+    big_square(0,0)  # Передаем координаты центральному квадрату
     turtle.done() # Завершаем рисовать
 
 

@@ -41,7 +41,7 @@ def rocket(x,y):
     square(x+0, y+10, "orange", 45, 0.5)
     triangle(x-35, y-25, "purple", 45, 0.5)
 
-def big_sqare(x,y):
+def big_square(x,y):
     triangle(150, 132, "red", 135, 2)
     triangle(150, -10, "purple", 225, 1)
     square(80, 60, "orange", 45, 1)
