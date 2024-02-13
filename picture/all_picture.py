@@ -17,8 +17,8 @@ def fish(x, y):
 def helicopter(x,y):
     parallelogram(0, 300, "green", 0, scale=1)
     triangle(-141, 256, "blue", 315, scale = 0.8)
-    triangle(-25, 256, "red", 90, 1)
-    triangle(-25, 115, "yellow", 180, 1)
-    triangle(-133, 151, "purple", 90, 0.5)
-    triangle(-101, 186, "pink", 180, 0.5)
-    square(-190,170, "orange",90, 0.5)
+    triangle(-25, 256, "red", 45, 1)
+    triangle(-25, 115, "yellow", 225, 1)
+    triangle(-133, 151, "purple", 315, 0.5)
+    triangle(-101, 186, "pink", 135, 0.5)
+    square(-190,170, "orange",225, 0.5)
