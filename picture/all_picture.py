@@ -1,6 +1,6 @@
 from cmath import sqrt
 
-from regular_figuer.all_figure import square, triangle, parallelogram
+from regular_figuer.all_figure import square, triangle, parallelogram, special
 
 
 #Делаем функция под каждую картинку
@@ -40,6 +40,19 @@ def rocket(x,y):
     parallelogram(70, -80, "green", 270, scale=0.8)
     square(0, 10, "orange", 45, 0.5)
     triangle(-35, -25, "purple", 45, 0.5)
+
+def big_sqare(x,y):
+    triangle(150, 132, "red", 135, 2)
+    triangle(150, -10, "purple", 225, 1)
+    square(80, 60, "orange", 45, 1)
+    triangle(-135, 132, "yellow", 45, 2)
+    triangle(-63, -82, "pink", -45, 1)
+    triangle(150, -10, "light blue", 90, 1.5)
+    special(-63, -83, "green", 0, scale=1.5)
+
+
+
+
 
 def ship(x,y):
     triangle(0, 200, "purple", 180, 0.5)
