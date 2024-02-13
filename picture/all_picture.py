@@ -46,5 +46,5 @@ def left_person(x,y):
     parallelogram(-100, 170, "green", -30, scale=1)
     triangle(20, 147, "yellow", 90, 1)
     triangle(-117, 15, "pink", -90, 0.5)
-    triangle(23, 80, "blue", 45, scale=0.8)
+    triangle(23, 80, "light blue", 45, scale=0.8)
     triangle(20, -60, "purple", -135, 0.5)
