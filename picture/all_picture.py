@@ -31,3 +31,12 @@ def rabbit(x, y):
     triangle(-25, 50, "blue", 90, 0.75)
     triangle(28, -25, "purple", 180, 0.5)
     triangle(0, 100, "pink", 45, 0.5)
+
+def rocket(x,y):
+    triangle(0, 150, "pink", 315, 0.5)
+    triangle(0, 150, "blue", 0, 0.7)
+    triangle(0, 150, "yellow", 45, 1)
+    triangle(70, -60, "red", 225, 1)
+    parallelogram(70, -80, "green", 270, scale=0.8)
+    square(0, 10, "orange", 45, 0.5)
+    triangle(-35, -25, "purple", 45, 0.5)
