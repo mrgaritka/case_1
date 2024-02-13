@@ -22,3 +22,12 @@ def helicopter(x,y):
     triangle(-133, 151, "purple", 315, 0.5)
     triangle(-101, 186, "pink", 135, 0.5)
     square(-190,170, "orange",225, 0.5)
+
+def left_person(x,y):
+    square(0, 300, 'orange', 45, scale=0.5)
+    triangle(-10, 120, "red", -90, 1)
+    parallelogram(-100, 170, "green", -30, scale=1)
+    triangle(20, 147, "yellow", 90, 1)
+    triangle(-117, 15, "pink", -90, 0.5)
+    triangle(23, 80, "blue", 45, scale=0.8)
+    triangle(20, -60, "purple", -135, 0.5)
