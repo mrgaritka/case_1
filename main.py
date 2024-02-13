@@ -4,15 +4,16 @@ import turtle
 
 
 def main():
-    turtle.speed(10)  # Установка максимальной скорости рисования
-    fish(0, 0) # Передаем координаты нашей рыбе
-    helicopter(0,0)
-    rabbit(0,0)
-    left_person(0,0)
-    rocket(0,0)
-    humen(0,0)
-    rooster(0,0)
-    ship(0,0)
+    turtle.screensize(900, 900)
+    turtle.speed(1000)  # Установка максимальной скорости рисования
+    fish(115, 20) # Передаем координаты нашей рыбе
+    helicopter(115, -500)
+    rabbit(-500,135)
+    left_person(-370,-150)
+    rocket(500,-300)
+    humen(200,-100)
+    rooster(560,30)
+    ship(-500,-400)
     big_sqare(0,0)
     turtle.done() # Завершаем рисовать
 
