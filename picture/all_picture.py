@@ -73,12 +73,12 @@ def left_person(x,y):
     triangle(20, -60, "purple", -135, 0.5)
 def humen(x, y):
     square(300, 300, "orange", 45, scale=0.7)
-    triangle(300, 100, "blue", 270, 1)
-    triangle(200, 200, "blue", 0, 1)
-    triangle(400, 0, "purple", 180, 1)
-    parallelogram(170, -10, "purple", 330, scale=1.5)
-    triangle(380, 0, "red", 0, 0.5)
-    triangle(180, -80, "red", 90, 0.5)
+    triangle(300, 100, "yellow", 270, 1)
+    triangle(200, 200, "red", 0, 1)
+    triangle(400, 0, "light blue", 180, 1)
+    parallelogram(170, -10, "green", 330, scale=1.5)
+    triangle(380, 0, "purple", 0, 0.5)
+    triangle(180, -80, "pink", 90, 0.5)
 
 def rooster(x, y):
     square(0, 300, "orange", 0, scale=0.5)
@@ -86,5 +86,5 @@ def rooster(x, y):
     triangle(-50, 150, "yellow", 270, 1)
     triangle(20, 150, "purple", 225, 0.5)
     triangle(-150, 300, "red", 0, 1)
-    triangle(-150, 300, "blue", 315, 0.7)
+    triangle(-150, 300, "light blue", 315, 0.7)
     parallelogram(-170, 234, "green", 285, scale=0.7)
