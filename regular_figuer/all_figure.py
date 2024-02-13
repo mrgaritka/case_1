@@ -52,13 +52,13 @@ def parallelogram(x, y, fill_color, rotation=0, scale = 1):
     turtle.right(rotation)  # Повернуть
     turtle.forward(a)  # Переместиться вперед на длину стороны
 
-    turtle.right(120)  # Повернуть направо на 90 градусов
+    turtle.right(120)  # Повернуть направо на 120 градусов
     turtle.forward(b)  # Переместиться вперед на длину стороны
 
-    turtle.right(60)  # Повернуть направо на 90 градусов
+    turtle.right(60)  # Повернуть направо на 60 градусов
     turtle.forward(a) # Переместиться вперед на длину стороны
 
-    turtle.right(120)  # Повернуть направо на 90 градусов
+    turtle.right(120)  # Повернуть направо на 120 градусов
     turtle.forward(b)
 
     turtle.right(60 - rotation)
@@ -79,10 +79,10 @@ def special(x, y, fill_color, rotation=0, scale = 1):
     turtle.right(135)  # Повернуть направо на 90 градусов
     turtle.forward(b)  # Переместиться вперед на длину стороны
 
-    turtle.right(45)  # Повернуть направо на 90 градусов
+    turtle.right(45)  # Повернуть направо на 45 градусов
     turtle.forward(a)  # Переместиться вперед на длину стороны
 
-    turtle.right(135)  # Повернуть направо на 90 градусов
+    turtle.right(135)  # Повернуть направо на 135 градусов
     turtle.forward(b)
 
     turtle.right(45 - rotation)

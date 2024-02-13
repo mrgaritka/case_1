@@ -5,7 +5,7 @@ from regular_figuer.all_figure import square, triangle, parallelogram, special
 
 #Делаем функция под каждую картинку
 def fish(x, y):
-    square(x-100, y+300, "orange", 45, scale=0.7)  # вариант с увеличением фигуры на 70%
+    square(x-100, y+300, "orange", 45, scale=0.7)  # вариант с увеличением фигуры на 30%
     triangle(x-50, y+325, "light blue", 45, scale=1)
     triangle(x-150, y+350, "red", 0, scale=1)
     triangle(x-50, y+250, "yellow", 90, scale=1)
@@ -71,7 +71,7 @@ def left_person(x,y):
     triangle(x-117, y+15, "pink", -90, 0.5)
     triangle(x+23, y+80, "light blue", 45, scale=0.8)
     triangle(x+20, y-60, "purple", -135, 0.5)
-def humen(x, y):
+def human(x, y):
     square(x+300, y+270, "orange", 45, scale=0.5)
     triangle(x+300, y+100, "yellow", 270, 1)
     triangle(x+200, y+200, "red", 0, 1)
