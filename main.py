@@ -1,4 +1,4 @@
-from picture.all_picture import fish, helicopter, rabbit,humen
+from picture.all_picture import fish, helicopter, rabbit,humen, rooster
 import turtle
 
 
@@ -9,6 +9,7 @@ def main():
     helicopter(0,0)
     rabbit(0,0)
     humen(0,0)
+    rooster(0,0)
     turtle.done() # Завершаем рисовать
 
 

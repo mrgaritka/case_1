@@ -48,3 +48,11 @@ def left_person(x,y):
     triangle(-117, 15, "pink", -90, 0.5)
     triangle(23, 80, "light blue", 45, scale=0.8)
     triangle(20, -60, "purple", -135, 0.5)
+def rooster(x,y):
+    square(0, 300, "orange", 0, scale=0.5)
+    triangle(0, 300, "pink", 315, 0.7)
+    triangle(-50, 150, "yellow", 270, 1)
+    triangle(20, 150, "purple", 225, 0.5)
+    triangle(-150, 300, "red", 0, 1)
+    triangle(-150, 300, "blue", 315, 0.7)
+    parallelogram(-170, 234, "green", 285, scale=0.7)
