@@ -6,5 +6,5 @@
 
 ## Picture - Ким А. 
 
-## Composition - Солодовникова А.
+## Composition - Солодовник А.
 
