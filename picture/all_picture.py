@@ -23,11 +23,19 @@ def helicopter(x,y):
     triangle(-101, 186, "pink", 135, 0.5)
     square(-190,170, "orange",225, 0.5)
 
-def left_person(x,y):
-    square(0, 300, 'orange', 45, scale=0.5)
-    triangle(-10, 120, "red", -90, 1)
-    parallelogram(-100, 170, "green", -30, scale=1)
-    triangle(20, 147, "yellow", 90, 1)
-    triangle(-117, 15, "pink", -90, 0.5)
-    triangle(23, 80, "blue", 45, scale=0.8)
-    triangle(20, -60, "purple", -135, 0.5)
+def rabbit(x, y):
+    square(0, 200, "orange", 0, 0.5)
+    parallelogram(-25, 203, "green", 240, scale=1)
+    triangle(-3, 175, "red", 90, 1)
+    triangle(-103, -25, "yellow", 270, 1)
+    triangle(-25, 50, "blue", 90, 0.75)
+    triangle(28, -25, "purple", 180, 0.5)
+    triangle(0, 100, "pink", 45, 0.5)
+def humen(x, y):
+    square(300, 300, "orange", 45, scale=0.7)
+    triangle(300, 100, "blue", 270, 1)
+    triangle(200, 200, "blue", 0, 1)
+    triangle(400, 0, "purple", 180, 1)
+    parallelogram(170, -10, "purple", 330, scale=1.5)
+    triangle(380, 0, "red", 0, 0.5)
+    triangle(180, -80, "red", 90, 0.5)
