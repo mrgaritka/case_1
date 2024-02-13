@@ -2,9 +2,9 @@
 
 ## Product manager, Case structure - Сокнышев Д.
 
-## Figure - Кабанова М. Сокнышев Д.
+## Figure - Кабанова М.
 
-## Picture - Ким А. Кабанова М.
+## Picture - Ким А. 
 
 ## Composition - Солодовникова А.
 
