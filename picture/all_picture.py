@@ -22,3 +22,12 @@ def helicopter(x,y):
     triangle(-133, 151, "purple", 315, 0.5)
     triangle(-101, 186, "pink", 135, 0.5)
     square(-190,170, "orange",225, 0.5)
+
+def rabbit(x, y):
+    square(0, 200, "orange", 0, 0.5)
+    parallelogram(-25, 203, "green", 240, scale=1)
+    triangle(-3, 175, "red", 90, 1)
+    triangle(-103, -25, "yellow", 270, 1)
+    triangle(-25, 50, "blue", 90, 0.75)
+    triangle(28, -25, "purple", 180, 0.5)
+    triangle(0, 100, "pink", 45, 0.5)
